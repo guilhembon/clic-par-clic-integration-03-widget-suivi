@@ -44,11 +44,11 @@ par une redirection vers un lien présigné d'une minute, comme au module 2).
 
 ## Prérequis
 
-- L'état de fin du **module 1** : dépôt [clic-par-clic-integration-01-brancher-studio](https://github.com/guilhem-/clic-par-clic-integration-01-brancher-studio)
+- L'état de fin du **module 1** : dépôt [clic-par-clic-integration-01-brancher-studio](https://github.com/guilhembon/clic-par-clic-integration-01-brancher-studio)
   (connexion MCP « Studio 3D », modèle « Studio 3D », groupe « Graphistes »). Le notificateur du module 2
   n'est pas nécessaire (les deux méthodes se combinent).
 - Le studio 3D dans sa dernière version, déployé dans le même cluster qu'Open WebUI : dépôt
-  [clic-par-clic-studio3d-06-stockage-s3](https://github.com/guilhem-/clic-par-clic-studio3d-06-stockage-s3)
+  [clic-par-clic-studio3d-06-stockage-s3](https://github.com/guilhembon/clic-par-clic-studio3d-06-stockage-s3)
   (image `studio3d:5`, Redis, workers, bibliothèque d'assets, stockage S3).
 - Open WebUI 0.11 (tourné sur 0.11.3), un compte **administrateur** et son jeton.
 - `kubectl` relié au cluster, Python 3.10 ou plus récent (bibliothèque standard seulement).
@@ -118,9 +118,9 @@ curl -s -o /dev/null -w "%{http_code}" http://studio.localhost:8080/s/1/<autre s
 ## Série
 
 - Module précédent : **Prévenir l'utilisateur quand son rendu est prêt** —
-  [clic-par-clic-integration-02-notifications](https://github.com/guilhem-/clic-par-clic-integration-02-notifications).
+  [clic-par-clic-integration-02-notifications](https://github.com/guilhembon/clic-par-clic-integration-02-notifications).
 - Module suivant : **Le studio comme un modèle : une fonction Pipe** —
-  [clic-par-clic-integration-04-fonction-pipe](https://github.com/guilhem-/clic-par-clic-integration-04-fonction-pipe).
+  [clic-par-clic-integration-04-fonction-pipe](https://github.com/guilhembon/clic-par-clic-integration-04-fonction-pipe).
 - Construire le studio : série « Créer un service d'IA compatible agentique : le studio 3D »
   (dépôts `clic-par-clic-studio3d-01` à `06`).
 
